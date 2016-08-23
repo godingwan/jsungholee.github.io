@@ -96,7 +96,7 @@ icon-180p: "/img/web-app/apple-icon-180x180.png"
 # Blog #
 ########
 
-enable-gesture-navigation: True
+enable-gesture-navigation: False
 
 post-preview-words: 96
 
