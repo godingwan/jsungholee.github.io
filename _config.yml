@@ -1,0 +1,209 @@
+
+# Site settings
+
+# NB! Set your site's url, otherwise stuff will break :)
+
+url: "https://jsungholee.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
+
+baseurl: /jsungholee.github.io
+
+# Google tracking id
+
+google-tracking-id: "UA-39299770-2"
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Joshua Lee"
+title: "{ Joshua Lee }"
+description: "Blog and portfolio of Joshua Lee, blogging about programming and drawing. Opinions expressed are mine."
+keywords: "lee, joshua, personal, webpage, portfolio, computer, programmer"
+favicon: "/img/favicon/favicon.ico"
+
+################
+# Header layout #
+################
+
+black-favicon: "/img/favicon/favicon-16x16.png"
+
+background-img: "../img/intro-bg.jpeg"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: False # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "Joshua Lee, Programmer Padawan" 
+  - text: "University of North Carolina at Charlotte, B.S. Computer Science 2017"
+
+me-img: "/img/profpic.jpg"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black"
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+# Android Icons
+icon-36p: "/img/web-app/android-icon-36x36.png"
+icon-48p: "/img/web-app/android-icon-48x48.png"
+icon-72p: "/img/web-app/android-icon-72x72.png"
+icon-96p: "/img/web-app/android-icon-96x96.png"
+icon-144p: "/img/web-app/android-icon-144x144.png"
+icon-192p: "/img/web-app/android-icon-192x192.png"
+# Apple Icons
+icon-57p: "/img/web-app/apple-icon-57x57.png"
+icon-60p: "/img/web-app/apple-icon-60x60.png"
+icon-72p: "/img/web-app/apple-icon-72x72.png"
+icon-76p: "/img/web-app/apple-icon-76x76.png"
+icon-114p: "/img/web-app/apple-icon-114x114.png"
+icon-120p: "/img/web-app/apple-icon-120x120.png"
+icon-144p: "/img/web-app/apple-icon-144x144.png"
+icon-152p: "/img/web-app/apple-icon-152x152.png"
+icon-180p: "/img/web-app/apple-icon-180x180.png"
+
+########
+# Blog #
+########
+
+enable-gesture-navigation: True
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: True
+tumblr-share: True
+pinterest-share: True
+pocket-share: True
+vkontakte-share: True
+
+disqus-shortname: "jsungholee"
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/uncc.png"
+    date: "January 2015 - Today"
+    description: "Process of getting computer science degree from UNC Charlotte"
+  - image: "/img/timeline/la.jpg"
+    date: "May 2013 - July 2013"
+    description: "Launch Academy - Boston coding boot camp"
+  - image: "/img/timeline/unc.png"
+    date: "May 2012"
+    description: "Graduated with psychology degree from UNC Chapel Hill"
+
+# First image of the Timeline
+
+timeline-img: "/img/timeline/baby.jpg"
+
+###########
+# Contact #
+###########
+
+email: "jsungholee@gmail.com"
+
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+author_blurb: "Joshua Lee is a programmer who enjoys drawing, weight lifting, and basketball as these help to get the creative juices flowing."
+author_blurb_image: "/img/profpic.jpg"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "github"
+    url: "https://github.com/jsungholee"
+  - title: "linkedin"
+    url: "https://www.linnkedin.com/in/jsungholee"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+404-img: "/img/404-error.jpg"
+
+##################
+# GPG on Keybase #
+##################
+
+keybase-username: johnsmith
+keybase-in-social: False
+keybase-in-footer: False
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Blog: 'latest-post'
+  Timeline: 'timeline'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-paginate
+  - jemoji

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>{ Joshua Lee }</title>
+		<description>Blog and portfolio of Joshua Lee, blogging about programming and drawing. Opinions expressed are mine.</description>
+		<link>https://jsungholee.github.io</link>
+		<atom:link href="https://jsungholee.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Calm Before the Storm</title>
+				
+				
+					<description>&lt;p&gt;My first day of “senior year” is tomorrow. It is difficult to gauge what year I am in since this is my second bachelor. Taking mostly computer science classes every semester has been tough but 
+it was nice to be able to focus solely on computer science. I have finally finished all of the foundational courses such as data structures, algorithms, and linear algebra and can take courses that 
+I find interesting such as internet security and data mining. I must now focus on finishing senior year with good grades while also keeping a look out for jobs. Wish me luck!&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 22 Aug 2016 00:00:00 -0400</pubDate>
+				<link>https://jsungholee.github.io/life/2016/08/22/setting-up-website.html</link>
+				<guid isPermaLink="true">https://jsungholee.github.io/life/2016/08/22/setting-up-website.html</guid>
+			</item>
+		
+	</channel>
+</rss>
