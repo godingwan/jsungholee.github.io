@@ -125,7 +125,7 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/rv.png"
+  - image: "/img/timeline/rv.jpg"
     date: "June 2017 - Current"
     description: "Software engineer at Red Ventures"
   - image: "/img/timeline/uncc.png"
@@ -146,7 +146,7 @@ timeline-img: "/img/timeline/baby.jpg"
 # Contact #
 ###########
 
-email: "jsungholee@gmail.com"
+email: "joshlee@alumni.unc.edu"
 
 ################
 # Author Blurb #
@@ -191,7 +191,7 @@ keybase-in-footer: False
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  # Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
 

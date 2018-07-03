@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>{ Joshua Lee }</title>
+		<title>Joshua Lee</title>
 		<description>Blog and portfolio of Joshua Lee, blogging about programming and drawing. Opinions expressed are mine.</description>
-		<link>https://jsungholee.github.io</link>
-		<atom:link href="https://jsungholee.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000/jsungholee.github.io</link>
+		<atom:link href="http://localhost:4000/jsungholee.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Preparing for Technical Interviews</title>
+				
+				
+					<description>&lt;h2 id=&quot;choosing-a-language&quot;&gt;Choosing a language&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Thu, 25 Aug 2016 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/jsungholee.github.io/technology/2016/08/25/prep_for_interviews.html</link>
+				<guid isPermaLink="true">http://localhost:4000/jsungholee.github.io/technology/2016/08/25/prep_for_interviews.html</guid>
+			</item>
 		
 			<item>
 				<title>Calm Before the Storm</title>
@@ -16,8 +29,8 @@ I find interesting such as internet security and data mining. I must now focus o
 </description>
 				
 				<pubDate>Mon, 22 Aug 2016 00:00:00 -0400</pubDate>
-				<link>https://jsungholee.github.io/life/2016/08/22/setting-up-website.html</link>
-				<guid isPermaLink="true">https://jsungholee.github.io/life/2016/08/22/setting-up-website.html</guid>
+				<link>http://localhost:4000/jsungholee.github.io/life/2016/08/22/setting-up-website.html</link>
+				<guid isPermaLink="true">http://localhost:4000/jsungholee.github.io/life/2016/08/22/setting-up-website.html</guid>
 			</item>
 		
 	</channel>

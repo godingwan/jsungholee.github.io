@@ -13,7 +13,7 @@
   
     
       <url>
-        <loc>https://jsungholee.github.io/blog/</loc>
+        <loc>http://localhost:4000/blog/</loc>
         
           
           
@@ -26,7 +26,7 @@
   
     
       <url>
-        <loc>https://jsungholee.github.io/</loc>
+        <loc>http://localhost:4000/</loc>
         
           
           
@@ -35,6 +35,10 @@
           
         
        </url>
+    
+  
+    
+  
     
   
     
@@ -59,7 +63,16 @@
   
   
     <url>
-      <loc>https://jsungholee.github.io/life/2016/08/22/setting-up-website.html</loc>
+      <loc>http://localhost:4000/jsungholee.github.io/technology/2016/08/25/prep_for_interviews.html</loc>
+      
+        <lastmod>2016-08-25T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/jsungholee.github.io/life/2016/08/22/setting-up-website.html</loc>
       
         <lastmod>2016-08-22T00:00:00-04:00</lastmod>
       
