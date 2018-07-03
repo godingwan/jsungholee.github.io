@@ -16,7 +16,7 @@ baseurl: /jsungholee.github.io
 
 # Google tracking id
 
-google-tracking-id: "UA-39299770-2"
+# google-tracking-id: "UA-39299770-2"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -30,7 +30,7 @@ force-https: True
 
 lang: "en"
 author: "Joshua Lee"
-title: "{ Joshua Lee }"
+title: "Joshua Lee"
 description: "Blog and portfolio of Joshua Lee, blogging about programming and drawing. Opinions expressed are mine."
 keywords: "lee, joshua, personal, webpage, portfolio, computer, programmer"
 favicon: "/img/favicon/favicon.ico"
@@ -39,7 +39,7 @@ favicon: "/img/favicon/favicon.ico"
 # Header layout #
 ################
 
-black-favicon: "/img/favicon/favicon-16x16.png"
+# black-favicon: "/img/favicon/favicon-16x16.png"
 
 background-img: "../img/intro-bg.jpeg"
 
@@ -57,6 +57,9 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Joshua Lee, Programmer Padawan" 
   - text: "University of North Carolina at Charlotte, B.S. Computer Science 2017"
+  - text: "Golang enthusiast"
+  - text: "Full stack engineer"
+  - text: "Machine language, blockchain, {{ Insert other buzz word here }}"
 
 me-img: "/img/profpic.jpg"
 
@@ -122,9 +125,12 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/rv.png"
+    date: "June 2017 - Current"
+    description: "Software engineer at Red Ventures"
   - image: "/img/timeline/uncc.png"
-    date: "January 2015 - Today"
-    description: "Process of getting computer science degree from UNC Charlotte"
+    date: "January 2015 - May 2017"
+    description: "Graduated with B.S. Computer Science"
   - image: "/img/timeline/la.jpg"
     date: "May 2013 - July 2013"
     description: "Launch Academy - Boston coding boot camp"
@@ -162,8 +168,6 @@ social:
     url: "https://github.com/jsungholee"
   - title: "linkedin"
     url: "https://www.linnkedin.com/in/jsungholee"
-  - title: "rss"
-    url: "/feed.xml"
 
 ############
 # 404 page #
